@@ -1,0 +1,18 @@
+package main;
+
+import Forma_pgmt.Forma_pgmt;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+public class Main {
+
+	public static void main(String[] args) {
+
+		FormaPagamento formapgmt = new FormaPagamento();
+
+		forma_pgmt.pay("300");
+	}
+}

@@ -1,0 +1,9 @@
+package tipo;
+
+public class DadosBXmlArtigo {
+	
+	public String getArtigoDeId(String artigoID) {
+
+		return "XmlDB:Exibindo dados do Produto " + artigoID;
+	}
+}

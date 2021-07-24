@@ -1,0 +1,15 @@
+package projetopp2;
+
+public interface FuncionarioAusente {
+	   void relax(); 
+}
+
+
+/*
+ * 
+ * public interface NonWorkingEmployee {
+
+    void relax();
+}
+ * 
+ * */

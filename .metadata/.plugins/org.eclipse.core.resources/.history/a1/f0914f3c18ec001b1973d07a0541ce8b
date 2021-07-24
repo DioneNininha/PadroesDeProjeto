@@ -1,0 +1,9 @@
+package factory;
+
+public class DbArtigoFactory {
+	
+	public static IDbArtigo create() {
+		return new ConsultaBdUm();
+	}
+
+}

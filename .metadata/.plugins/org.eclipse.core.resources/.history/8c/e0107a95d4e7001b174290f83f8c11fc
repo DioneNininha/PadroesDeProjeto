@@ -1,0 +1,14 @@
+package veiculos;
+
+/**
+ *
+ * @author Dione
+ *
+ */
+public interface IVeiculo {
+	public void configuracaoQuadriciclo(double motor, String cor, String ano, int banco);
+
+	public void configuracaoQuadriciclo(double motor, String cor, String ano);
+
+	public void startVeiculo();
+}

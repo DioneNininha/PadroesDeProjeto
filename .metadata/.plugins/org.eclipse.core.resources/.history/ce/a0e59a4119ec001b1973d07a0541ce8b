@@ -1,0 +1,23 @@
+package formaconsulta;
+
+import tipo.ConsultaBdUm;
+
+
+
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+
+public class FormaConsulta {
+
+	public void pay(String artigoID) {
+		
+		FormaConsulta formaconsulta = new FormaConsulta();
+		String artigo = dbArtigo.getArtigoDeId(artigoID);
+
+		System.out.println(artigo);
+	}
+}

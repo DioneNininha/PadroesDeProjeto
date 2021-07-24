@@ -1,0 +1,11 @@
+package tipo;
+
+public enum Db {
+	Banco01,
+	Banco02,
+	Banco03,
+	Banco04, 
+	Gerenciador,
+	BdDocumentoArtigo
+	
+}

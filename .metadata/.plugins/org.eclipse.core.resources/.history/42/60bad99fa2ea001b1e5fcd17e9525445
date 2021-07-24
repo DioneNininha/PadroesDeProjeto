@@ -1,0 +1,9 @@
+package tipo;
+
+public class GerenciadorArtigo implements IDbArtigo {
+
+	public string getArtigoDeId(string artigoID) {
+		return " Do <GrenciadorArtigo>: Dados do artigo - " +a artigoID;
+	}
+}
+

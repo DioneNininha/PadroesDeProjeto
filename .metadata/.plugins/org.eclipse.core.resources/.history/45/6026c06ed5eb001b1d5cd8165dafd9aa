@@ -1,0 +1,14 @@
+package tipo;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+public class ConsultaBdUm {
+
+	public String getArtigoDeId(String artigoID) {
+
+		return "\n  Do <BancoDadosUm> : Artigo " + artigoID;
+	}
+}

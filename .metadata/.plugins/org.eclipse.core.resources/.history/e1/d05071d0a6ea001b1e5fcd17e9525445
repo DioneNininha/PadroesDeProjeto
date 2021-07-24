@@ -1,0 +1,16 @@
+package factory;
+
+import tipo.Db;
+import tipo.IDbArtigo;
+import tipo.DbArtigoFactory;
+import tipo.GerenciadorArtigo;
+public class DbArtigoFactory {
+
+	public static IDbArtigo create(Db tipo) {
+        if (tipo == Db.GerenciadorArtigo) {
+            return new GerenciadorArtigo();
+        }else {
+            return new DbArtigoFactory();
+        }
+    }
+}

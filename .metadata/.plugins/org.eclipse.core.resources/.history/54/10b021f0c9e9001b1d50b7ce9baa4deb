@@ -1,0 +1,11 @@
+package model;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+public interface IDbProduct {
+	
+	public String getProductById(String productID);
+}

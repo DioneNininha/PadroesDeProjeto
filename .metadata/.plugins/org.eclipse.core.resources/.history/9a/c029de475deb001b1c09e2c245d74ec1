@@ -1,0 +1,8 @@
+package tipo;
+
+public class ConsultaBdUm implements IDbProduct{
+
+    public String getProductById(String productID){
+        return "Mysql:Exibindo dados do Produto "+ productID;
+    }
+}

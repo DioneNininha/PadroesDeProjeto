@@ -1,0 +1,10 @@
+package tipo;
+
+public class DadosBXmlArtigo implements IDbArtigo {
+	
+    public String getArtigoDeId(String artigoID){
+    	
+        return "XmlDB:Exibindo dados do Produto "+ artigoID;
+    }
+}
+

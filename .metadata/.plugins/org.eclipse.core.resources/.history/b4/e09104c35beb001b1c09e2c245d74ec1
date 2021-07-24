@@ -1,0 +1,14 @@
+package factory;
+
+
+import tipo.IDbProduct;
+import tipo.MySQLProduct;
+
+public class DbProductFactory {
+
+    public static IDbProduct create() {
+    	return new MySQLProduct();
+        
+    }
+
+}

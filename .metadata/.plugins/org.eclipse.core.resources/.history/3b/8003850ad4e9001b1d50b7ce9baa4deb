@@ -1,0 +1,11 @@
+package tipo;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+public interface IDbArtigo {
+
+	public String getProductById(String artigoID);
+}

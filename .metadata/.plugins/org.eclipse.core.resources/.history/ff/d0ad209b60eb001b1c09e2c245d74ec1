@@ -1,0 +1,14 @@
+package factory;
+
+
+import tipo.IDbArtigo;
+import tipo.ConsultaBdUm;
+
+public class DbArtigoFactory {
+
+    public static IDbArtigo create() {
+    	return new ConsultaBdUm();
+        
+    }
+
+}

@@ -1,0 +1,10 @@
+package projetopp2;
+
+public class  FuncionarioImpl extends Funcionario implements FuncionarioNoTrabalho {
+
+
+	 @Override
+	public void trabalhos() {
+
+    }
+}

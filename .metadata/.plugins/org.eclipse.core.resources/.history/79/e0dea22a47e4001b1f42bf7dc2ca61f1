@@ -1,0 +1,59 @@
+package projetopp2;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FuncionarioMain {
+
+	 public static void main(String args[]) {
+		 
+		   List<FuncionarioNoTrabalho> funcionarios = new ArrayList<>();
+	        funcionarios.add(novo FuncionarioNoTrabalhoImpl());
+
+	        Projeto projeto = new Projeto();
+	        projeto.start(funcionarios);
+
+	    }
+	 }
+
+/*
+ * 
+ * 
+ * import java.util.ArrayList;
+import java.util.List;
+
+public class EmployeeMain {
+
+    public static void main(String args[]) {
+
+        List<WorkingEmployee> employees = new ArrayList<>();
+        employees.add(new WorkingEmployeeImpl());
+
+        Project project = new Project();
+        project.start(employees);
+
+    }
+}*/
+
+ /*https://github.com/gkatzioura/SolidPr
+  * inciples/blob/master/src/main/java/
+  * com/gkatzioura/solid/liskov/WorkingEmployeeImpl.java*/
+
+/*https://egkatzioura.com/2018/02/23/solid-principles-liskov
+ * -substitution-principle/*/
+
+
+
+
+  /*Quer dizer que vc sobrescreveu
+   *  um método de uma classe pai.
+   *   @Override Quando utiliza esse
+   *    comando, ele garante que você 
+   *    não vai sobrescrever o que não
+   *     herdou. Isso segundo meu professor de faculdade. 
+   * Serve também pra evidenciar que o método foi sobrescrito.*/
+   
+
+/*https://www.javacodegeeks.com/2018/02/solid-principles
+ * -liskov-substitution-principle.html*/
+ 

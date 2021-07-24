@@ -1,0 +1,9 @@
+package factory;
+
+public class DbArtigoFactory {
+
+	public String IDbArtigo create(){
+		
+		return new GerenciadorArtigo(artigo);
+		}
+}

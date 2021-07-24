@@ -1,0 +1,14 @@
+package main;
+
+
+import formapgmt.FormaPgmt;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        FrmaPgmt formapgmt = new FrmaPgmt();
+        formapgmt.pay("250");
+    }
+}
+

@@ -1,0 +1,14 @@
+package tipo;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+public class GerenciadorArtigo {
+
+	public String getArtigoById(String artigoID) {
+
+		return " \n<Gerenciador>: Dados do artigo - " + artigoID;
+	}
+}

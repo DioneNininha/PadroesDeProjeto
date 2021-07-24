@@ -1,0 +1,6 @@
+package projetopp2;
+
+public interface FuncionarioNoTrabalho {
+	
+	void trabalhos();
+}

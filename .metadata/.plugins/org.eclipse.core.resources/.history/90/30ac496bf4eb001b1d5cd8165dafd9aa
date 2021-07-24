@@ -1,0 +1,23 @@
+package formaconsulta;
+
+
+
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+
+public class FormaConsulta {
+
+	public void pay(String artigoID) {
+
+	
+		FormaConsulta dbArtigo = new FormaConsulta();
+
+		String artigo = dbArtigo.getArtigoDeId(artigoID);
+
+		System.out.println(artigo);
+	}
+}

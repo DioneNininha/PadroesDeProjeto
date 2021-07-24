@@ -1,0 +1,18 @@
+package projetopp2;
+
+public class FuncionarioDeRecesso implements FuncionarioAusente  {
+	@Override
+    public void relax() {
+
+    }
+}
+/*
+  
+ * public class EmployeeOnVacation implements NonWorkingEmployee {
+
+    @Override
+    public void relax() {
+
+    }
+}*/
+ 

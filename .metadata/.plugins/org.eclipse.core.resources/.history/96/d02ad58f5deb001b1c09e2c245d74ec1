@@ -1,0 +1,8 @@
+package tipo;
+
+public class ConsultaBdUm implements IDbProduct{
+
+    public String getProductById(String artigoID){
+        return "Do <BancoDadosUm> : Artigo "+ artigoID;
+    }
+}

@@ -1,0 +1,23 @@
+package formaconsulta;
+
+import tipo.IDbArtigo;
+
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+
+public class FormaConsulta {
+
+	public void pay(String artigoID) {
+
+	
+		IDbArtigo dbArtigo = new IDbArtigo();
+
+		String artigo = dbArtigo.getArtigoDeId(artigoID);
+
+		System.out.println(artigo);
+	}
+}

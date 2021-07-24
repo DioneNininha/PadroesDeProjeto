@@ -1,0 +1,16 @@
+package formapgmt;
+
+import br.com.hcode.solid.dip.factory.DbProductFactory;
+import br.com.hcode.solid.dip.model.Db;
+import br.com.hcode.solid.dip.model.IDbProduct;
+import br.com.hcode.solid.dip.model.MySQLProduct;
+
+public class Payment {
+    public void pay(String productID){
+
+       
+        String product = dbProduct.getProductById(productID);
+        System.out.println(product);
+    }
+}
+

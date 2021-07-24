@@ -1,0 +1,17 @@
+package projetopp2;
+
+import java.util.ArrayList;
+
+import com.sun.tools.javac.util.List;
+
+public class EmployeeMain {
+	 public static void main(String args[]) {
+
+	        List<WorkingEmployee> employees = new ArrayList<>();
+	        employees.add(new WorkingEmployeeImpl());
+
+	        Project project = new Project();
+	        project.start(employees);
+
+	    }
+}

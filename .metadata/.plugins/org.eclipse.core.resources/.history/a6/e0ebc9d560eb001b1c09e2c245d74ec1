@@ -1,0 +1,7 @@
+package tipo;
+
+public interface IDbArtigo {
+	
+    public String getArtigoDeId(String artigoID);
+}
+

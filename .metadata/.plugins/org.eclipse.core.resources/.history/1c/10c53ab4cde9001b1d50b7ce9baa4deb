@@ -1,0 +1,21 @@
+package forma_pgmt;
+
+import model.MySQLProduct;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+
+public class Forma_pgmt {
+
+	public void pay(String productID) {
+
+		MySQLProduct dbProduct = new MySQLProduct();
+
+		String product = dbProduct.getProductById(productID);
+
+		System.out.println(product);
+	}
+}

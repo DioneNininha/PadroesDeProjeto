@@ -1,0 +1,22 @@
+package projetopp2;
+
+public class Funcionario {
+
+	 public String getTitle() {
+	        return "Título do funcionário";
+	    }
+}
+
+
+
+/*
+ * 
+ * 
+ * public class Employee {
+
+    public String getTitle() {
+        return "The employee's title";
+    }
+
+}*/
+ 

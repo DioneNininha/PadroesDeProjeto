@@ -1,0 +1,11 @@
+package veiculos;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+public interface IVeiculoDiciclo {
+
+	public void configuracaoDiciclo(double motor, String cor, String ano);
+}

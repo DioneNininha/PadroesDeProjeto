@@ -1,0 +1,12 @@
+package factory;
+
+public class DbArtigoFactory {
+
+	public static IDbProduct create(Db type) {
+        if (tipo == Db.GerenciadorArtigo) {
+            return new GerenciadorArtigo();
+        }else {
+            return new DbArtigoFactory();
+        }
+    }
+}

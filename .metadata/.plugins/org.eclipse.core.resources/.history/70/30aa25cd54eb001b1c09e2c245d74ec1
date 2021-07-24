@@ -1,0 +1,9 @@
+package tipo;
+
+public class BdDocumentoArtigo implements IDbArtigo {
+
+	public String getArtigoDeId(String artigoID) {
+
+		return " \nDo <BdDocumentoArtigo>: Dados do artigo - " + artigoID;
+	}
+}

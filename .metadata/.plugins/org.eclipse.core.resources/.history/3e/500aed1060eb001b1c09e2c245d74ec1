@@ -1,0 +1,15 @@
+package main;
+
+
+import formaconsulta.FormaPgmt;
+
+public class Main {
+
+    public static void main(String[] args) {
+
+        FormaPgmt formapgmt = new FormaPgmt();
+        
+        formapgmt.pay("0097");
+    }
+}
+

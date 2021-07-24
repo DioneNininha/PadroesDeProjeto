@@ -1,0 +1,29 @@
+package projetopp2;
+import java.util.List;
+public class Projeto {
+
+	 public void start(List<FuncionarioNoTrabalho> funcionarioNoTrabalho) {
+
+	      
+			for(FuncionarioNoTrabalho funcionarioNoTrabalho:funcionarioNoTrabalho) {
+	            funcionarioNoTrabalho.trabalhos();
+	        }
+	    }
+	
+}
+/*
+ * 
+ * import java.util.List;
+
+public class Project {
+
+    public void start(List<WorkingEmployee> workingEmployees) {
+
+        for(WorkingEmployee workingEmployee:workingEmployees) {
+            workingEmployee.work();
+        }
+    }
+}
+ * 
+ * */
+ 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Solid.Individuo"/>
+    <fullyQualifiedTypeName name="veiculos.Diciclo"/>
+    <fullyQualifiedTypeName name="vehicles.Car"/>
+    <fullyQualifiedTypeName name="vehicles.Motorcycle"/>
+    <fullyQualifiedTypeName name="veiculos.Quadriciclo"/>
+    <fullyQualifiedTypeName name="model.Db"/>
+    <fullyQualifiedTypeName name="model.MongoDBProduct"/>
+    <fullyQualifiedTypeName name="factory.DbProductFactory"/>
+    <fullyQualifiedTypeName name="model.IDbProduct"/>
+    <fullyQualifiedTypeName name="payment.Payment"/>
+    <fullyQualifiedTypeName name="formapgmt.FormaPgmt"/>
+    <fullyQualifiedTypeName name="model.MySQLProduct"/>
+    <fullyQualifiedTypeName name="factory.DbArtigoFactory"/>
+    <fullyQualifiedTypeName name="tipo.Db"/>
+    <fullyQualifiedTypeName name="tipo.IDbArtigo"/>
+    <fullyQualifiedTypeName name="tipo.GerenciadorArtigo"/>
+</qualifiedTypeNameHistroy>

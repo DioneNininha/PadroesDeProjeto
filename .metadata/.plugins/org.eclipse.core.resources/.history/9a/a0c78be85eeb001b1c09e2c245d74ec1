@@ -1,0 +1,16 @@
+package formapgmt;
+
+
+import factory.DbProductFactory;
+import tipo.IDbProduct;
+
+
+public class Payment {
+    public void pay(String productID){
+
+        IDbProduct dbProduct = DbProductFactory.create();
+        String product = dbProduct.getProductById(productID);
+        System.out.println(product);
+    }
+}
+

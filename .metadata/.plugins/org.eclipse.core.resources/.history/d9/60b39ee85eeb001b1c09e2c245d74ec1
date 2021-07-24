@@ -1,0 +1,16 @@
+package formapgmt;
+
+
+import factory.DbArtigoFactory;
+import tipo.IDbArtigo;
+
+
+public class FormaPgmt {
+    public void pay(String productID){
+
+        IDbArtigo dbArtigo = DbArtigoFactory.create();
+        String artigo = dbArtigo.getArtigoDeId(artigoID);
+        System.out.println(artigo);
+    }
+}
+

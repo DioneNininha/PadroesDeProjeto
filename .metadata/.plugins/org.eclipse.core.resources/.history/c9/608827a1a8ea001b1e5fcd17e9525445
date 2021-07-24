@@ -1,0 +1,8 @@
+package tipo;
+
+public class BdDocumentoARtigo implements IDbArtigo {
+    public String getArtigoDeId(String productID){
+        return "MongoDB:Exibindo dados do Produto "+ artigotID;
+    }
+}
+

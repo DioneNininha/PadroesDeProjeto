@@ -1,0 +1,5 @@
+package projetopp2;
+
+public interface NonWorkingEmployee {
+
+}

@@ -1,0 +1,14 @@
+package model;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+public class GerenciadorPeça implements IDbProduct {
+
+	public String getProductById(String productID) {
+
+		return "Gerenciador: Dados da Peça - " + productID;
+	}
+}

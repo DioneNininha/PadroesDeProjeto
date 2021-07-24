@@ -1,0 +1,17 @@
+package formapgmt;
+
+import tipo.GerenciadorArtigo;
+
+public class FormaPgmt {
+
+	public void pay(String artigoID) {
+
+		IDbArtigo dbArtigo = DbArtigoFactory.create();
+		
+		//GerenciadorArtigo dbArtigo = new GerenciadorArtigo();
+
+		String artigo = dbArtigo.getArtigoDeId(artigoID);
+
+		System.out.println(artigo);
+	}
+}

@@ -1,0 +1,71 @@
+1626629744543	Delete element
+1626629759859	Delete element
+1626629800716	Delete element
+1626630631408	Delete element
+1626630635531	Delete element
+1626631201826	Delete element
+1626631206843	Delete element
+1626631215047	Delete element
+1626631219590	Delete element
+1626631452750	Delete element
+1626631486367	Delete element
+1626631935985	Delete element
+1626632360191	Delete element
+1626632404910	Delete element
+1626632459778	Delete element
+1626632688369	Delete element
+1626632738975	Delete element
+1626632743796	Delete element
+1626640658910	Delete element
+1626640669516	Delete element
+1626661309326	Delete element
+1626661324462	Delete element
+1626814321292	Delete element
+1626814376092	Delete element
+1626814696448	Rename package 'br.com.ted3.pep.dip'
+1626814707196	Delete element
+1626815001945	Delete element
+1626815854378	Delete element
+1626830796854	Delete element
+1626832379391	Delete element
+1626832535928	Delete element
+1626833671786	Delete element
+1626835403791	Delete element
+1626835526748	Delete element
+1626835725060	Delete element
+1626837129837	Rename compilation unit 'MySQLProduct.java'
+1626837659919	Rename package 'model'
+1626837998777	Rename type 'IDbProduct'
+1626838386145	Rename compilation unit 'GerenciadorPeça.java'
+1626838864068	Delete element
+1626838869132	Delete element
+1627003485581	Delete element
+1627003492512	Delete element
+1627003497158	Delete element
+1627003501668	Delete element
+1627003507021	Delete element
+1627003514570	Delete element
+1627003520386	Delete element
+1627003542517	Delete element
+1627003548127	Delete element
+1627003553987	Delete element
+1627003560763	Delete element
+1627003892680	Delete element
+1627003898049	Delete element
+1627005136322	Delete element
+1627006304490	Rename package 'model'
+1627006491249	Rename type 'MySQLProduct'
+1627006658616	Rename type 'MongoDBProduct'
+1627006789977	Rename type 'BdXmlArtigo'
+1627007630746	Rename package 'payment'
+1627007842747	Rename compilation unit 'Payment.java'
+1627007986199	Rename compilation unit 'IDbProduct.java'
+1627008104486	Rename compilation unit 'DbProductFactory.java'
+1627008281196	Rename package 'formapgmt'
+1627008406360	Rename compilation unit 'FormaPgmt.java'
+1627063039753	Delete element
+1627067727585	Delete element
+1627067733426	Delete element
+1627067762606	Delete element
+1627067768562	Delete element
+1627087024938	Rename type 'XmlDB'

@@ -1,0 +1,14 @@
+package tipo;
+
+/**
+ * 
+ * @author Dione
+ *
+ */
+public class MongoDBArtigo implements IDbArtigo {
+
+	public String getArtigotById(String artigoID) {
+
+		return "MongoDB:Exibindo dados do Artigo " + artigotID;
+	}
+}
